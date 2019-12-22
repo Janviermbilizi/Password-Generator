@@ -9,6 +9,8 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  flex: 1 0 auto;
+
 }
 h2 {
   font-size: 15px;
@@ -21,6 +23,7 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  height: 92%;
 }
 header {
   text-align: center;
@@ -38,6 +41,8 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+
+  flex: 1 0 auto;
 }
 .card-header::after {
   content: " ";
@@ -91,10 +96,9 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
@@ -107,6 +111,17 @@ button[disabled] {
 }
 #charNum {
   font-family: "Oswald", sans-serif;
+}
+#footer {
+  flex-shrink: 0;
+  color: #ffffff;
+  background: gray;
+  height: 80px;
+  line-height: 70px;
+  text-align: center;
+  bottom: 0;
+  padding-bottom: 0;
+  border-top: 8px solid teal;
 }
 @media (max-width: 690px) {
   .btn {
@@ -122,5 +137,8 @@ button[disabled] {
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+  . .card {
+    max-width: 85%;
   }
 }

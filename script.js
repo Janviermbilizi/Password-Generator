@@ -8,6 +8,7 @@ var symBox = document.querySelector("#sym");
 var generate = document.querySelector("#generate");
 var yourPw = document.querySelector("#yourPw");
 var copy = document.querySelector("#copy");
+
 //Event Listener to generate random password
 generate.addEventListener("click", function() {
   var characters = char;
@@ -15,6 +16,7 @@ generate.addEventListener("click", function() {
   symBox.checked ? (characters += sym) : "";
   yourPw.value = password(charNum.value, characters);
 });
+
 //Loop to generate random password
 function password(l, characters) {
   var pwd = "";
