@@ -25,12 +25,20 @@
           <h2>
             How many characters do you want? (choose between 8-128)
             <input
-              type="number"
               id="charNum"
+              type="number"
+              type="range"
               value="10"
+              name="quantity"
               min="8"
               max="128"
-            /><br />
+            />
+            <br />
+          </h2>
+          <h2>
+            If you would like to include <strong>uppercase letters</strong>,
+            check this box :
+            <input type="checkbox" id="upperChar" />
           </h2>
           <h2>
             If you would like to include <strong>numbers</strong>, check this
@@ -38,7 +46,7 @@
             <input type="checkbox" id="num" />
           </h2>
           <h2>
-            If you would like to include <strong>Symbols</strong>, check this
+            If you would like to include <strong>symbols</strong>, check this
             box: <input type="checkbox" id="sym" /><br />
           </h2>
           <textarea
