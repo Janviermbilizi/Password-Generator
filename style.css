@@ -10,13 +10,12 @@ body,
   margin: 0;
   padding: 0;
   flex: 1 0 auto;
-
 }
 h2 {
   font-size: 15px;
 }
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "oswald", sans-serif;
   background-color: #f9fbfd;
 }
 .wrapper {
@@ -96,7 +95,11 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
+  justify-content: center;
+  position: relative;
+  text-overflow: ellipsis;
   padding-top: 30px;
+  padding-bottom: 20px ;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 1.2rem;
@@ -109,6 +112,7 @@ button[disabled] {
   overflow: hidden;
   font-family: "Oswald", sans-serif;
 }
+
 #charNum {
   font-family: "Oswald", sans-serif;
 }
@@ -132,6 +136,10 @@ button[disabled] {
   #password {
     font-size: 1rem;
     font-family: "Oswald", sans-serif;
+  }
+  #yourPw {
+    height: 150px;
+    padding-top: 10px;
   }
 }
 @media (max-width: 500px) {

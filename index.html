@@ -23,15 +23,14 @@
         </div>
         <div class="card-body">
           <h2>
-            How many characters do you want? (choose between 8-128)
+            How many characters do you want? (must be between 8-128)
             <input
               id="charNum"
               type="number"
-              type="range"
-              value="10"
-              name="quantity"
+              value="#"
               min="8"
               max="128"
+              onKeyUp="if(this.value>128){this.value=128} else if(this.value<8){this.value=8}"
             />
             <br />
           </h2>
