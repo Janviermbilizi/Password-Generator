@@ -6,11 +6,11 @@ the name of this app is <i>Password Generator </i> as it designs to generate pas
 
 <strong>Description</strong>
 
-As a web developer, I want a deployed portfolio that can showcase my work to potential employers and clients. It is in that spirit that my instructor gave me and other students a homework 3 to design an application that can generate pass for user.
+As a web developer, I want a deployed portfolio that can showcase my work to potential employers and clients. It is in that spirit that my instructor gave me and other students a homework 3 to design an application that can generate password for users based on user's input.
 
 <strong>Programs used</strong>
 
-I used HTML, CSS, Javascript(in Video Studio Code), Bootstrap And of cause Git/Github was used as version control.
+I used HTML, CSS, Javascript(in Video Studio Code), Bootstrap And of cause Git/Github were used as version control.
 
 <strong>Installation</strong>
 
