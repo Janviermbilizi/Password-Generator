@@ -99,7 +99,7 @@ button[disabled] {
   position: relative;
   text-overflow: ellipsis;
   padding-top: 30px;
-  padding-bottom: 20px ;
+  padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 1.2rem;
@@ -148,5 +148,10 @@ button[disabled] {
   }
   . .card {
     max-width: 85%;
+  }
+}
+@media (max-height: 640px) {
+  #footer {
+    visibility: hidden;
   }
 }
